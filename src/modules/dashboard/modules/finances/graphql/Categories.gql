@@ -1,0 +1,8 @@
+# import * from './Operation.gql'
+#import './CategoryFragment.gql'
+
+query Categories($operations: Operation){
+    categories(operation: $operation){
+      ...CategoryFragment
+    }
+}

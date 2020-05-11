@@ -1,0 +1,8 @@
+#import '@/modules/auth/graphql/UserFragment.gql'
+fragment AccountFragment on Account{
+  id
+  description
+  user {
+    ...UserFragment
+  }
+}
