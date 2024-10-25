@@ -17,7 +17,7 @@
     "moment": "^2.24.0",
     "roboto-fontface": "*",
     "rxjs": "^6.5.5",
-    "vue": "^2.6.10",
+    "vue": "^3.0.0",
     "vue-router": "^3.0.3",
     "vuelidate": "^0.7.5",
     "vuetify": "^2.2.26",
